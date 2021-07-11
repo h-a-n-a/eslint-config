@@ -1,14 +1,17 @@
 {
   "name": "@hanao/eslint-config-basic",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "",
   "main": "index.js",
   "author": "h-a-n-a <andywangsy@gmail.com>",
   "license": "MIT",
+  "files": [
+    "index.js"
+  ],
   "publishConfig": {
     "access": "public"
   },
-  "devDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.28.2",
     "@typescript-eslint/parser": "^4.28.2",
     "eslint-config-standard": "^16.0.3",
@@ -17,5 +20,9 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "jsonc-eslint-parser": "^1.1.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.30.0",
+    "typescript": "4.x"
   }
 }
